@@ -1,0 +1,43 @@
+h1 {
+    margin: 0;
+  }
+  #navbar {
+    position: fixed;
+    left: 0px;
+    right: 100;
+    top: 0px;
+    float:left;
+    border-bottom-right-radius: 15px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    max-width: 24%;
+    background-color: white;
+    color: black;
+    padding-left: 5px;
+    font-size: 40px;
+  }
+  
+  
+  @media (max-width: 100px) {
+    * {
+      background-color: white;
+      color: black;
+    }
+  }
+  main {
+    background-color: rgb(0,100,170);
+    color: white;
+    margin-left: 25%;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    
+  }
+  
+  header {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  * {
+    margin: 0 0 0 0;
+  }
